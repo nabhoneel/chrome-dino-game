@@ -52,7 +52,7 @@ public class Dino {
   public void create(Graphics g) {
     dinoBottom = dinoTop + image.getHeight();
 
-    g.drawRect(getDino().x, getDino().y, getDino().width, getDino().height);
+    // g.drawRect(getDino().x, getDino().y, getDino().width, getDino().height);
 
     switch(state) {
 

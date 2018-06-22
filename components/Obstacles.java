@@ -41,10 +41,12 @@ public class Obstacles {
     
     firstX = firstPos;
     obstacleInterval = 200;
-    movementSpeed = 12;
+    movementSpeed = 11;
     
     imageList.add(new Resource().getResourceImage("../images/Cactus-1.png"));
     imageList.add(new Resource().getResourceImage("../images/Cactus-2.png"));
+    imageList.add(new Resource().getResourceImage("../images/Cactus-2.png"));
+    imageList.add(new Resource().getResourceImage("../images/Cactus-1.png"));
     // imageList.add(new Resource().getResourceImage("../images/Cactus-3.png"));
     // imageList.add(new Resource().getResourceImage("../images/Cactus-4.png"));
     imageList.add(new Resource().getResourceImage("../images/Cactus-5.png"));
@@ -87,7 +89,7 @@ public class Obstacles {
   public void create(Graphics g) {
     for(Obstacle ob : obList) {
       g.setColor(Color.black);
-      g.drawRect(ob.getObstacle().x, ob.getObstacle().y, ob.getObstacle().width, ob.getObstacle().height);
+      // g.drawRect(ob.getObstacle().x, ob.getObstacle().y, ob.getObstacle().width, ob.getObstacle().height);
       g.drawImage(ob.image, ob.x, ob.y, null);
     }
   }
