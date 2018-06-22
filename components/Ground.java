@@ -58,8 +58,7 @@ public class Ground {
       first.x = previousX + image.getWidth();
       groundImageSet.add(first);
     }
-
-    System.out.println("ground set length = " + groundImageSet.size());
+    
   }
   
   public void create(Graphics g) {

@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 class UserInterface {
   JFrame mainWindow = new JFrame("T-Rex Run");
   
-  public static int WIDTH = 1200;
+  public static int WIDTH = 800;
   public static int HEIGHT = 500;
   
   public void createAndShowGUI() {
